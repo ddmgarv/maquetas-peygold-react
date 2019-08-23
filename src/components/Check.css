@@ -1,0 +1,134 @@
+.check-help-title-container .btn-custom-status,
+.check-payMethod-amount-container .btn-custom-status,
+.check-checkbook-title-container .btn-custom-success {
+  font-size: 16px;
+  font-weight: 500;
+}
+.title-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.check-payMethod-amount-container .border-separator {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #4875a3;
+}
+.check-input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  width: 100%;
+}
+.check-checkbook-title-container .btn-custom-green,
+.check-borrow-request .btn-custom-green {
+  min-width: 150px;
+}
+.checkbook-help-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.check-payMethod-amount-container {
+  top: 0 !important;
+}
+.expiration-checkboxes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+}
+.expiration-checkboxes-container .custom-control {
+  margin-top: 0.5rem;
+}
+.expiration-checkboxes-container .custom-control label {
+  font-weight: 500;
+}
+.check-borrow-request .input-custom-text {
+  width: 400px;
+}
+.check-borrow-request .input-custom-text input {
+  color: #fff;
+  padding-bottom: 0.5rem;
+}
+.check-borrow-request .input-custom-text input::placeholder {
+  color: #8f8f94;
+}
+.paymethod-content {
+  width: 100%;
+}
+
+.paymethod-content span {
+  color: #a5b5e4;
+}
+.movement-options-wrapper {
+  height: 425px;
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+.movement-options-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.movement-options-title .text-blue {
+  color: #0ea1ce;
+  font-size: 17px;
+  font-weight: 700;
+}
+.movement-option-row {
+  background-color: #2d486d;
+  width: 100%;
+  height: 240px;
+  border-top: 1px solid #7994a891;
+  margin-top: 1rem;
+  padding: 0.75rem;
+}
+.movement-option-row > div {
+  display: flex;
+  margin-top: 1rem;
+}
+.movement-option-row > div .amount-cont {
+  margin-left: 35%;
+}
+.movement-option-row .date {
+  color: #fff;
+  font-size: 18px;
+}
+.movement-option-row .green-text {
+  color: #00c955;
+  font-size: 19px;
+  font-weight: 300;
+}
+.movement-option-row .opaque-text {
+  color: #a5b5e4;
+  font-weight: 600;
+}
+@media screen and (max-width: 576.98px) {
+  .title-info-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .check-input-container {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .check-input-container input {
+    margin-top: 1rem;
+  }
+  .expiration-checkboxes-container {
+    justify-content: center;
+    width: 200px;
+    margin-top: 1rem;
+  }
+  .check-borrow-request .input-custom-text {
+    width: 200px;
+  }
+}

@@ -1,0 +1,46 @@
+.white-fluid-box {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid rgba(156, 156, 156, 0.65);
+  -webkit-box-shadow: 0px 3px 7px 2px rgba(0, 111, 115, 0.5);
+  -moz-box-shadow: 0px 3px 7px 2px rgba(115, 111, 115, 0.5);
+  box-shadow: 0px 3px 7px 2px rgba(115, 111, 115, 0.5);
+  padding: 1rem 8rem 2rem 8rem !important;
+  z-index: 15;
+}
+.white-fluid-box .wallet-item {
+  -webkit-box-shadow: 0px 0px 15px 3px rgba(156, 156, 156, 1);
+  -moz-box-shadow: 0px 0px 15px 3px rgba(156, 156, 156, 1);
+  box-shadow: 0px 0px 15px 3px rgba(156, 156, 156, 1);
+}
+.white-fluid-box-title {
+  padding: 0 7rem;
+  margin-top: 1rem;
+}
+.white-fluid-box-title h1 {
+  color: #3b3e66;
+  font-weight: 600;
+}
+.white-fluid-box-title h1:hover {
+  color: #0031d3;
+}
+.white-fluid-box .title-text {
+  font-weight: 700;
+  color: #3b3e66;
+  font-size: 25px;
+}
+@media screen and (max-width: 1290.98px) {
+  .white-fluid-box {
+    padding: 1rem 4rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .white-fluid-box {
+    padding: 1rem !important;
+  }
+  .white-fluid-box-title {
+    padding: 0 0.1rem;
+    margin-bottom: 0.5rem;
+  }
+}

@@ -1,0 +1,17 @@
+.white-box {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 2px solid #dad9de;
+  border-right: 2px solid #dad9de;
+  padding: 0 5% 3rem 5% !important;
+  background-color: #fff;
+}
+.white-box h4 {
+  font-size: 17px;
+  padding-bottom: 0.75rem;
+  width: 100%;
+  border-bottom: 1px solid #dad9de;
+  color: #3b3e66;
+  font-weight: bold;
+}

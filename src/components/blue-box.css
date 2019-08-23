@@ -1,0 +1,59 @@
+.blue-box-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to bottom, #1a5f85, #373f6b);
+  background-position: center 23%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  padding: 1.75rem 5% !important;
+  position: relative;
+  top: -1rem;
+  z-index: 1;
+  overflow: hidden;
+}
+.blue-box-wallet-bg {
+  background-image: url("../assets/contenedor-billeteras.svg") !important;
+}
+.blue-box-wrapper > h4 {
+  color: #e4e6e8;
+  font-size: 17px;
+  margin-left: 0.7rem;
+  font-weight: 700;
+}
+.blue-box-wrapper > h4 > img {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  right: 8px;
+}
+.blue-box-wrapper > p {
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 2.35rem;
+}
+.border-bottom-title {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  padding-bottom: 1rem;
+}
+@media screen and (min-width: 1599px) {
+  .blue-box-wrapper {
+    background-position: center 28%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .blue-box-wrapper {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: inherit 1%;
+  }
+}
+@media screen and (max-width: 650.98px) {
+  .blue-box-wrapper {
+    padding: 1.25rem;
+    background-image: linear-gradient(to bottom, #1a5f85, #373f6b);
+  }
+  .blue-box-wrapper > p {
+    font-size: 14px;
+  }
+}

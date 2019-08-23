@@ -1,0 +1,75 @@
+.reload-options-container {
+  display: flex;
+  justify-content: space-between;
+}
+.reload-options-container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  background-color: #fff;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 8px;
+  width: 50%;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.reload-options-container > div:hover {
+  background-color: #c8c8c8;
+}
+.reload-options-container img {
+  width: 30px;
+  height: 30px;
+}
+.reload-options-container > div > div {
+  margin-right: 3.5rem;
+  text-align: left;
+}
+.reload-options-container > div span:first-child {
+  font-weight: bold;
+  font-size: 15px;
+}
+.reload-options-container > div span:last-child {
+  font-size: 14px;
+}
+.reload-options-container > .disabled {
+  background-color: #adb9c9 !important;
+  cursor: not-allowed;
+}
+.reload-options-container > .disabled span:first-child {
+  color: #fff !important;
+}
+.reload-options-container > .disabled span:last-child {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+.reload-option-chevron {
+  width: 1rem;
+  height: 1rem;
+  fill: #0031d3;
+}
+.reload-options-container > .disabled .reload-option-chevron {
+  visibility: hidden;
+}
+@media screen and (max-width: 1060.98px) {
+  .reload-options-container > div > div {
+    margin-right: 0.51rem;
+  }
+  .reload-options-container > div span:first-child {
+    font-size: 13px;
+  }
+  .reload-options-container > div span:last-child {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 650.98px) {
+  .reload-options-container {
+    flex-wrap: wrap;
+  }
+  .reload-options-container > div {
+    width: 100%;
+  }
+  .reload-options-container > div > div {
+    margin-right: 0;
+    margin-left: 1rem;
+  }
+}

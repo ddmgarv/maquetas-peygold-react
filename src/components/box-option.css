@@ -1,0 +1,29 @@
+.box-option {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #dad9de;
+  background-color: #fff;
+  border-radius: 18px;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2.5rem;
+}
+.box-option img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.box-option .text-cont {
+  margin-left: 1rem;
+}
+@media screen and (max-width: 576.98px) {
+  .box-option {
+    flex-direction: column;
+  }
+  .box-option .text-cont {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
