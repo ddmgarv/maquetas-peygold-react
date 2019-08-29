@@ -1,0 +1,95 @@
+.rows-wrapper {
+  height: 100%;
+  margin-left: auto;
+  padding: 0 !important;
+  margin-right: auto;
+}
+.rows-wrapper .check-data-row {
+  width: 100%;
+  padding: 1.75rem 5%;
+  border-bottom: 1px solid #7994a891;
+}
+.rows-wrapper .data-hide {
+  transition: all 0.5s;
+  background-color: #2b446a;
+  height: 85px;
+}
+.rows-wrapper .data-show {
+  background-color: #185a7b;
+  transition: all 0.5s;
+  max-height: 1000px;
+}
+.rows-wrapper .data-show .content-container {
+  display: initial;
+}
+.rows-wrapper .data-hide .content-container {
+  display: none;
+}
+.rows-wrapper .check-data-row:last-child {
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+.rows-wrapper .title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #7994a85e;
+  cursor: pointer;
+}
+.rows-wrapper .title-container .name {
+  font-weight: 600;
+  color: #64b8ff;
+}
+.rows-wrapper .title-container .arrow {
+  font-size: 20px;
+  color: #64b8ff;
+}
+.rows-wrapper .data-show .arrow {
+  transform: rotate(180deg);
+}
+.rows-wrapper .inputs-container {
+  display: flex;
+  justify-content: space-between;
+}
+.rows-wrapper .form-group label {
+  color: #fff;
+  font-size: 14px;
+}
+.rows-wrapper .form-group {
+  width: 100%;
+}
+.rows-wrapper .form-group:nth-child(1) {
+  margin-right: 4%;
+}
+.rows-wrapper .form-group:nth-child(2) {
+  margin-left: 4%;
+}
+.rows-wrapper .data-hide .title-text-hide {
+  display: none;
+}
+.rows-wrapper .data-show .title-text-hide {
+  display: block;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width: 992px) {
+  .rows-wrapper .check-data-row:last-child {
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 650.98px) {
+  .rows-wrapper .inputs-container {
+    flex-direction: column;
+  }
+  .rows-wrapper .form-group:nth-child(1) {
+    margin-right: 0;
+  }
+  .rows-wrapper .form-group:nth-child(2) {
+    margin-left: 0;
+  }
+  .rows-wrapper .data-show .title-text-hide {
+    font-size: 13px;
+  }
+}

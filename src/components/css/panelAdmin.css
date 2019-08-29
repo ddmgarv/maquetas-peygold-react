@@ -1,0 +1,192 @@
+.margin-top-fix {
+  margin-top: 3.5rem;
+}
+.topbar-check-container {
+  position: fixed;
+  z-index: 15;
+  top: 3.2rem;
+  height: 4.5rem;
+  padding: 0;
+  background-image: linear-gradient(to right, #146283, #373c68);
+}
+.topbar-check-container .topbar-check {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 83.33%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 5%;
+}
+.topbar-check-container .id-number {
+  font-size: 16px;
+  color: #fff;
+}
+.topbar-check-container .vertical-separator {
+  border-left: 1px solid #7994a891;
+  width: 1px;
+  border-radius: 1px;
+  height: 1.75rem;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.check-data-container {
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.75rem 5% !important;
+}
+.check-data-container h6 {
+  margin-bottom: 1rem;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0031d3;
+}
+.check-data-container .check-upload-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.check-data-container .check-img-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  overflow-x: auto;
+}
+.check-data-container .check-img-container img {
+  width: 100%;
+  min-width: 600px;
+  height: 325px;
+}
+.check-data-container .image-upload {
+  border-radius: 50%;
+  width: 100%;
+}
+.check-data-container .image-upload > input {
+  display: none;
+}
+.check-data-container .image-upload label {
+  cursor: pointer;
+  color: #64b8ff;
+  font-weight: 700;
+}
+.check-data-container .image-upload img {
+  width: 27px;
+  height: 27px;
+}
+.front-back-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.front-back-container button {
+  color: #939197;
+  transition: color 0.5s;
+  font-weight: 500;
+}
+.front-back-container button:nth-child(2) {
+  margin-left: 3rem;
+}
+.front-back-container button:hover {
+  transition: color 0.5s;
+  color: #0031d3;
+}
+
+.check-btn-container {
+  display: flex;
+  justify-content: center;
+}
+.check-btn-container button {
+  width: 100%;
+  margin: 1rem;
+}
+@media screen and (max-width: 650.98px) {
+  .check-data-container h6 {
+    font-size: 16px;
+  }
+  .topbar-check-container {
+    height: 5.5rem;
+  }
+  .check-upload-inputs {
+    flex-direction: column;
+  }
+  .check-data-container .image-upload label,
+  .check-data-container input[type="checkbox"] + label,
+  .check-btn-container button,
+  .topbar-check-container .id-number,
+  .front-back-container {
+    font-size: 12px !important;
+  }
+
+  .check-btn-container {
+    align-items: center;
+  }
+  .check-btn-container button {
+    margin: 0.5rem;
+  }
+}
+.requestant-request-info-container {
+  display: flex;
+  justify-content: center;
+}
+.requestant-request-info-container > div {
+  width: 50%;
+}
+.requestant-request-info-container > div:first-child {
+  margin-right: 2%;
+}
+.requestant-request-info-container > div:last-child {
+  margin-left: 2%;
+}
+.subtitle-blue {
+  font-weight: 600;
+  color: #7b7e9b;
+  font-size: 16px;
+}
+.select-insurance-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.select-insurance-container .select-insurance {
+  width: 50%;
+}
+@media screen and (max-width: 576.98px) {
+  .topbar-check-container .topbar-check {
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 0.5rem;
+  }
+  .topbar-check-container .topbar-check div:nth-child(2) {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+  .requestant-request-info-container {
+    flex-direction: column;
+  }
+  .requestant-request-info-container > div {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .requestant-request-info-container > div:first-child {
+    margin-right: 0;
+  }
+  .requestant-request-info-container > div:last-child {
+    margin-left: 0;
+  }
+  .select-insurance-container {
+    flex-direction: column;
+  }
+  .select-insurance-container > * {
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  .select-insurance-container .select-insurance {
+    width: 100%;
+  }
+}

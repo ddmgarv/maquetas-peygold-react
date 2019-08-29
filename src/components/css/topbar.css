@@ -133,11 +133,15 @@ ul.list-group {
 #sidebar-container .nav-subtitles {
   height: 50px;
 }
+.sidebar-welcome-text {
+  text-transform: uppercase;
+}
 #sidebar-container a,
 #sidebar-container .nav-subtitles,
 .sidebar-welcome-text {
   color: rgba(255, 255, 255, 0.6);
 }
+
 #user-text {
   font-size: 15px;
   text-align: left;
@@ -224,13 +228,13 @@ ul.list-group {
   background-color: #35385c;
 }
 ul.sublist-wallet {
-  list-style-image: url("../assets/punto-billetera.png");
+  list-style-image: url("../../assets/punto-billetera.png");
 }
 ul.sublist-request {
-  list-style-image: url("../assets/punto-cobrar.png");
+  list-style-image: url("../../assets/punto-cobrar.png");
 }
 ul.sublist-pay {
-  list-style-image: url("../assets/punto-pagar.png");
+  list-style-image: url("../../assets/punto-pagar.png");
 }
 .sidebar-link:hover .sidebar-icon,
 .nav-subtitles:hover .sidebar-icon {

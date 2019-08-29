@@ -1,0 +1,290 @@
+.table-responsive {
+  margin: 0 !important;
+}
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table-cont {
+  height: 280px;
+  width: 100%;
+  padding: 0 0.5rem !important;
+}
+.table-cont * {
+  color: #fff !important;
+  font-weight: normal !important;
+}
+.table-recent-transfers {
+  font-size: 14px;
+  height: 200px;
+}
+.table-recent-transfers thead {
+  background-color: transparent;
+}
+.table-recent-transfers img {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+}
+.table-cont tr {
+  border-bottom: 1px solid #7994a891;
+}
+.table-cont td,
+.table-cont th {
+  width: 100%;
+  word-break: break-all;
+}
+.table-recent-transfers .hour {
+  color: #8388a5 !important;
+  font-weight: 500 !important;
+}
+
+.table-recent-transfers .progress {
+  height: 8px;
+  position: relative;
+  top: 5px;
+}
+.progress-bar-send {
+  width: 20%;
+  background-color: #28a745;
+}
+.progress-bar-received {
+  width: 100%;
+  background-color: #07a8ec;
+}
+.progress-text-send {
+  font-size: 13px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.progress-text-send span:first-child {
+  color: #28a745;
+}
+.progress-text-received {
+  font-size: 13px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.progress-text-received span {
+  color: #07a8ec;
+}
+.table-date-cell,
+.table-action-cell,
+.table-img-cell {
+  min-width: 40px;
+}
+.table-request-id {
+  min-width: 130px;
+}
+.table-amount-cell {
+  min-width: 90px;
+  font-weight: 600 !important;
+}
+.table-mail-cell {
+  width: 120px;
+}
+.table-status-cell {
+  min-width: 125px;
+  word-break: unset !important;
+}
+.table-h-custom {
+  height: 325px !important;
+}
+.table-cont .edit-btn {
+  background-color: #2f3d64;
+  padding: 0.5rem;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  transition: all 0.5s;
+  position: relative;
+  right: 8px;
+}
+.table-cont .edit-btn svg {
+  background-color: #0093d5;
+  padding: 0.35rem;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  font-size: 17px;
+  transition: all 0.5s;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+.table-cont .edit-btn span {
+  font-size: 13px;
+  position: absolute;
+  top: 12px;
+  left: 45px;
+  color: #009bdb !important;
+  font-weight: 500 !important;
+}
+.table-cont .edit-btn:hover {
+  border-radius: 30px;
+  width: 100px;
+  transition: all 0.5s;
+}
+
+.table-cont .edit-btn:hover span {
+  display: initial;
+}
+.table-cont .double-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2f3d64;
+  border-radius: 30px;
+  width: 95px;
+  height: 32px;
+}
+.table-cont .double-button-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.5s;
+}
+.table-cont .double-button-container .accept-circle {
+  background-color: #0093d5;
+}
+.table-cont .double-button-container .reject-circle {
+  background-color: #ff4898;
+}
+.table-cont .double-button-container div > svg {
+  height: 14px;
+  width: 14px;
+}
+.table-cont .double-button-container div > span {
+  display: none;
+  position: absolute;
+  top: 33px;
+  right: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+.table-cont .double-button-container button:hover span {
+  display: block;
+}
+.table-cont .status-container-active {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2f3d64;
+  border-radius: 30px;
+  width: 105px;
+  height: 32px;
+  padding: 0.2rem 3rem;
+  position: relative;
+  right: 13px;
+}
+.table-cont .status-container-active button > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  border-radius: 50%;
+  transition: all 0.5s;
+  background-color: #00c955;
+}
+.table-cont .status-container-active svg {
+  height: 14px;
+  width: 14px;
+}
+.table-cont .status-container-active .text-active {
+  position: relative;
+  left: 8px;
+  font-size: 13px;
+}
+.table-cont .status-container-active .text-active {
+  color: #00c955 !important;
+}
+
+.table-cont .status-container-inactive {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2f3d64;
+  border-radius: 30px;
+  width: 105px;
+  height: 32px;
+  padding: 0.2rem 3rem;
+  position: relative;
+  right: 13px;
+}
+.table-cont .status-container-inactive button > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  border-radius: 50%;
+  transition: all 0.5s;
+  background-color: #a7a5ac;
+  position: relative;
+  left: 2px;
+}
+.table-cont .status-container-inactive svg {
+  height: 14px;
+  width: 14px;
+}
+.table-cont .status-container-inactive .text-inactive {
+  position: relative;
+  left: 8px;
+  font-size: 13px;
+}
+.table-cont .status-container-inactive .text-inactive {
+  color: #a7a5ac !important;
+}
+
+.table-cont .text-rejected {
+  color: #ff4898 !important;
+  font-weight: 500 !important;
+}
+.table-cont .text-approve {
+  color: #32a74d !important;
+  font-weight: 500 !important;
+}
+.table-cont .text-pending {
+  color: #009bdb !important;
+  font-weight: 500 !important;
+}
+.trCustom {
+  height: 100px;
+  text-align: center;
+}
+.trCustom td {
+  padding-top: 60px !important;
+}
+@media only screen and (min-width: 640px) {
+  .table-cont tr {
+    display: flex;
+    align-items: center;
+  }
+  .table-cont .edit-btn {
+    top: 3px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .table-cont {
+    overflow-y: auto !important;
+  }
+  .table-cont {
+    height: 480px !important;
+  }
+  .table-cont tr {
+    border: 1px solid #a5b5e4 !important;
+    margin-top: 1rem;
+    border-radius: 18px;
+  }
+  .table-cont .edit-btn {
+    bottom: 5px;
+  }
+}

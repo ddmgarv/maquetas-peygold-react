@@ -37,6 +37,9 @@ import user4 from "../assets/user4.png";
 import user5 from "../assets/user5.png";
 import walletCont from "../assets/contenedor-billeteras.svg";
 import youtube from "../assets/icon-youtube.svg";
+import doubleChevronRight from "../assets/double-chevron-right.svg";
+import doubleChevronLeft from "../assets/double-chevron-left.svg";
+
 export {
   chip,
   bgWPesos,
@@ -76,5 +79,7 @@ export {
   pWallet,
   pCharge,
   pPay,
-  notifAct
+  notifAct,
+  doubleChevronRight,
+  doubleChevronLeft
 };

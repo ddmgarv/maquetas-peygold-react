@@ -7,7 +7,7 @@
   -moz-box-shadow: 0px 3px 7px 2px rgba(115, 111, 115, 0.5);
   box-shadow: 0px 3px 7px 2px rgba(115, 111, 115, 0.5);
   padding: 1rem 8rem 2rem 8rem !important;
-  z-index: 15;
+  z-index: 5;
 }
 .white-fluid-box .wallet-item {
   -webkit-box-shadow: 0px 0px 15px 3px rgba(156, 156, 156, 1);

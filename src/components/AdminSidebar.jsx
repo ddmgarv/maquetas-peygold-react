@@ -9,7 +9,7 @@ import {
 } from "../constants/img_urls";
 import "./css/topbar.css";
 
-const Sidebar = ({ handleClick, click }) => (
+const AdminSidebar = ({ handleClick, click }) => (
   <div
     className={click ? "sidebar-extended" : "sidebar-collapse"}
     id="sidebar-wrapper"
@@ -47,7 +47,7 @@ const Sidebar = ({ handleClick, click }) => (
           <div id="center-sidebar-user">
             <img src={user3} id="user-img-sidebar" alt="" />
             <p id="user-text">
-              <span className="sidebar-welcome-text">BIENVENIDO</span>
+              <span className="sidebar-welcome-text">administrador</span>
               <br />
               <span className="sidebar-user-text">Gustavo Rojas</span>
             </p>
@@ -70,7 +70,7 @@ const Sidebar = ({ handleClick, click }) => (
                 <path d="M26.9,17.35H3.47V.87A.87.87,0,0,0,2.6,0H.87A.87.87,0,0,0,0,.87V19.09a1.73,1.73,0,0,0,1.74,1.73H26.9a.87.87,0,0,0,.86-.87V18.22A.87.87,0,0,0,26.9,17.35ZM25.16,1.74h-6.4A1.3,1.3,0,0,0,17.84,4L19.6,5.71l-4,4-4-4a1.76,1.76,0,0,0-2.46,0L5.46,9.44a.87.87,0,0,0,0,1.23l1.23,1.22a.86.86,0,0,0,1.22,0l2.5-2.5,4,4a1.73,1.73,0,0,0,2.45,0l5.21-5.2,1.76,1.75A1.3,1.3,0,0,0,26,9V2.6A.86.86,0,0,0,25.16,1.74Z" />
               </svg>
             </div>
-            <span>Resumen</span>
+            <span>Conf. de sistema</span>
           </a>
         </li>
         {/* <!-- Subtitulo sidebar --> */}
@@ -390,4 +390,4 @@ l91.883,91.883l-91.883,91.883c-6.198,6.198-6.198,16.273,0,22.47s16.273,6.198,22.
   </div>
 );
 
-export default Sidebar;
+export default AdminSidebar;

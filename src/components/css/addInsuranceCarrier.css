@@ -1,0 +1,38 @@
+.add-insurance-carrier-container {
+  margin: 3.5rem auto 0 auto;
+  padding: 1rem 7.5% !important;
+  height: 100%;
+  background-color: #fff;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.add-insurance-carrier-container h5 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.add-insurance-carrier-container .input-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+.add-insurance-carrier-container .input-container > div {
+  width: 100%;
+}
+.add-insurance-carrier-container .input-container > div:first-child {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.add-insurance-carrier-container .input-container > div:last-child {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.add-insurance-carrier-container .input-container label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #7b7e9b;
+}
+.add-insurance-carrier-container .input-container input {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}

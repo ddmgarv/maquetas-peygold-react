@@ -19,12 +19,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   width: 100%;
 }
 .check-checkbook-title-container .btn-custom-green,
 .check-borrow-request .btn-custom-green {
   min-width: 150px;
+}
+.check-borrow-request .selection-text {
+  color: #e4e6e8;
+}
+.check-borrow-request .check-fieldset {
+  border: 2px solid #7994a891;
+  padding: 1.5rem;
+}
+.check-borrow-request .check-fieldset legend {
+  font-size: 18px;
+  color: #e4e6e8;
+  font-weight: 500;
+  padding-left: 1rem;
 }
 .checkbook-help-container {
   margin-left: auto;
@@ -82,13 +95,17 @@
   font-size: 17px;
   font-weight: 700;
 }
+.movement-option-row .date-cont {
+  width: 91px;
+}
 .movement-option-row {
   background-color: #2d486d;
   width: 100%;
   height: 240px;
+  overflow-y: auto;
   border-top: 1px solid #7994a891;
   margin-top: 1rem;
-  padding: 0.75rem;
+  padding: 0 0.75rem 0.5rem 0.75rem;
 }
 .movement-option-row > div {
   display: flex;
