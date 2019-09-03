@@ -607,6 +607,37 @@ select::-ms-expand {
 .selected-user-container .selected-user-info-cont span:last-child {
   color: #8f8f94;
 }
+
+.status-float-txt {
+  background-color: #2f3d64;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 8px;
+}
+.status-float-txt span {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  min-width: 100px;
+  max-width: 250px;
+  word-break: break-all;
+  position: absolute;
+  top: 5px;
+  left: 35px;
+  border-radius: 8px;
+  text-align: center;
+  z-index: 40;
+  padding: 0.5rem;
+}
+.status-float-txt:hover span {
+  display: block;
+}
+
 /* formateo de cajas */
 
 /*Formateo para el Div de movimientos recientes en todas las pantallas*/

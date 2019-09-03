@@ -5,7 +5,8 @@ import {
   faChevronLeft,
   faChevronRight,
   faSearch,
-  faTimes
+  faTimes,
+  faEdit
 } from "@fortawesome/free-solid-svg-icons";
 import "./css/panelAdmin.css";
 import "./css/blue-box.css";
@@ -102,7 +103,7 @@ const AdminCreditRequests = () => {
                   <Td className="table-status-cell">
                     <button>
                       <div className="edit-btn">
-                        <i className="fas fa-edit"></i>
+                        <FontAwesomeIcon icon={faEdit} />
                         <span>Editar</span>
                       </div>
                     </button>
@@ -147,20 +148,10 @@ const AdminCreditRequests = () => {
               </Tbody>
             </Table>
           </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-12 ">
-          <ul class="pagination">
+          <ul class="pagination mt-4">
             <li class="">
               <a class="d-flex" href="#">
-                <FontAwesomeIcon icon={faChevronLeft} />
-                <FontAwesomeIcon icon={faChevronLeft} />
-              </a>
-            </li>
-            <li class="">
-              <a class="d-flex" href="#">
-                <FontAwesomeIcon icon={faChevronLeft} />
+                <FontAwesomeIcon icon={faChevronLeft} /> <span>Anterior</span>
               </a>
             </li>
             <li class="active">
@@ -170,22 +161,27 @@ const AdminCreditRequests = () => {
             </li>
             <li class="">
               <a class="" href="#">
-                ...
+                2
               </a>
             </li>
             <li class="">
               <a class="" href="#">
-                25
+                3
               </a>
             </li>
             <li class="">
               <a class="" href="#">
-                <FontAwesomeIcon icon={faChevronRight} />
+                4
               </a>
             </li>
             <li class="">
-              <a class="d-flex" href="#">
-                <FontAwesomeIcon icon={faChevronRight} />
+              <a class="" href="#">
+                5
+              </a>
+            </li>
+            <li class="">
+              <a class="" href="#">
+                <span>Siguiente</span>
                 <FontAwesomeIcon icon={faChevronRight} />
               </a>
             </li>

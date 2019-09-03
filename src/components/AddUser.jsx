@@ -11,7 +11,8 @@ import {
   faMailBulk,
   faPiggyBank,
   faPen,
-  faMoneyBill
+  faMoneyBill,
+  faUser
 } from "@fortawesome/free-solid-svg-icons";
 import "./css/panelAdmin.css";
 import "./css/add-item-box.css";
@@ -29,7 +30,7 @@ const AddInsuranceCarrier = ({ click }) => {
       >
         <div class="topbar-check">
           <div class="d-flex align-items-center">
-            <span class="id-number">Código del ID N° 772019475</span>
+            <span class="id-number">Crear nuevo usuario</span>
           </div>
           <div class="check-btn-container">
             <button class="btn-outline-opaque">Regresar</button>
@@ -40,7 +41,7 @@ const AddInsuranceCarrier = ({ click }) => {
 
       <div className="row">
         <div className="col-lg-11 add-insurance-carrier-container">
-          <h5 className="subtitle-blue">Agregar Aseguradora</h5>
+          <h5 className="subtitle-blue">Complete los campos requeridos</h5>
           <div className="input-container">
             <div className="form-group">
               <label htmlFor="">
@@ -60,7 +61,7 @@ const AddInsuranceCarrier = ({ click }) => {
                 <span className="prepend-icon-input">
                   <FontAwesomeIcon icon={faCreditCard} />
                 </span>
-                Cuit
+                CUIT
               </label>
               <input
                 type="text"
@@ -69,6 +70,7 @@ const AddInsuranceCarrier = ({ click }) => {
               />
             </div>
           </div>
+
           <div className="input-container">
             <div className="form-group">
               <label htmlFor="">
@@ -76,21 +78,6 @@ const AddInsuranceCarrier = ({ click }) => {
                   <FontAwesomeIcon icon={faAddressBook} />
                 </span>
                 Dirección
-              </label>
-              <input
-                type="text"
-                className="input-text"
-                placeholder="Ingrese el campo"
-              />
-            </div>
-          </div>
-          <div className="input-container">
-            <div className="form-group">
-              <label htmlFor="">
-                <span className="prepend-icon-input">
-                  <FontAwesomeIcon icon={faPhone} />
-                </span>
-                Número
               </label>
               <input
                 type="text"
@@ -116,9 +103,9 @@ const AddInsuranceCarrier = ({ click }) => {
             <div className="form-group">
               <label htmlFor="">
                 <span className="prepend-icon-input">
-                  <FontAwesomeIcon icon={faFileContract} />
+                  <FontAwesomeIcon icon={faUser} />
                 </span>
-                Piso
+                Rol
               </label>
               <input
                 type="text"
@@ -129,9 +116,9 @@ const AddInsuranceCarrier = ({ click }) => {
             <div className="form-group">
               <label htmlFor="">
                 <span className="prepend-icon-input">
-                  <FontAwesomeIcon icon={faMailBulk} />
+                  <FontAwesomeIcon icon={faPhone} />
                 </span>
-                Email
+                Número
               </label>
               <input
                 type="text"
@@ -144,9 +131,38 @@ const AddInsuranceCarrier = ({ click }) => {
             <div className="form-group">
               <label htmlFor="">
                 <span className="prepend-icon-input">
+                  <FontAwesomeIcon icon={faUser} />
+                </span>
+                Email
+              </label>
+              <input
+                type="text"
+                className="input-text"
+                placeholder="Ingrese el campo"
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="">
+                <span className="prepend-icon-input">
+                  <FontAwesomeIcon icon={faPiggyBank} />
+                </span>
+                Banco
+              </label>
+              <input
+                type="text"
+                className="input-text"
+                placeholder="Ingrese el campo"
+              />
+            </div>
+          </div>
+
+          <div className="input-container">
+            <div className="form-group">
+              <label htmlFor="">
+                <span className="prepend-icon-input">
                   <FontAwesomeIcon icon={faLocationArrow} />
                 </span>
-                Provincia
+                Piso
               </label>
               <input
                 type="text"
@@ -185,9 +201,9 @@ const AddInsuranceCarrier = ({ click }) => {
             <div className="form-group">
               <label htmlFor="">
                 <span className="prepend-icon-input">
-                  <FontAwesomeIcon icon={faPiggyBank} />
+                  <FontAwesomeIcon icon={faLocationArrow} />
                 </span>
-                Banco
+                Provincia
               </label>
               <input
                 type="text"

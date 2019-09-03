@@ -5,6 +5,11 @@ import AdminSidebar from "../components/AdminSidebar";
 import AdminCreditRequests from "./../components/AdminCreditRequests";
 import InsuranceCarrierList from "../components/InsuranceCarrierList";
 import AddInsuranceCarrier from "../components/AddInsuranceCarrier";
+import Check from "../components/Check";
+import AdminUsers from "../components/AdminUsers";
+import AddUser from "../components/AddUser";
+import "./../components/css/modal.css";
+
 class Wrapper extends Component {
   constructor(props) {
     super(props);
@@ -44,10 +49,29 @@ class Wrapper extends Component {
               handleDD2={this.handleDD2}
               handleDD3={this.handleDD3}
             ></AdminInputChecks> */}
-            {/* <AdminCreditRequests></AdminCreditRequests> */}
-            {/* <InsuranceCarrierList></InsuranceCarrierList> */}
-            <AddInsuranceCarrier click={click}></AddInsuranceCarrier>
+            {/* <Check /> */}
+            {/* <AdminCreditRequests /> */}
+            {/* <InsuranceCarrierList /> */}
+            {/* <AddInsuranceCarrier click={click} /> */}
+            {/* <AdminUsers  /> */}
+            <AddUser click={click}></AddUser>
           </main>
+
+          {/* <div class="modal-background"></div>
+          <div class="modal-container">
+            <div class="modal-content">
+              <div>
+                <img src="../global/assets/user1.png" alt="" />
+              </div>
+              <div>
+                <h5>Ooooopps!</h5>
+                <p>Ha ocurrido un error durante el proceso</p>
+              </div>
+              <div>
+                <button>Volver a intentarlo</button>
+              </div>
+            </div>
+          </div> */}
         </div>
       </Fragment>
     );

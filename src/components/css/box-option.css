@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 2.5rem;
+  padding: 1rem 3%;
 }
 .box-option img {
   width: 75px;
@@ -28,12 +28,32 @@
 .box-option .text-cont p {
   font-size: 13px;
 }
-@media screen and (max-width: 576.98px) {
+@media screen and (max-width: 1200px) {
+  .box-option .text-cont h1 {
+    font-size: 18px;
+  }
+  .box-option .text-cont p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 992px) {
   .box-option {
     flex-direction: column;
   }
+  .box-option img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 15px;
+  }
+}
+@media screen and (max-width: 576.98px) {
   .box-option .text-cont {
     margin-left: 0;
     margin-top: 1rem;
+  }
+  .box-option img {
+    width: 50px;
+    height: 50px;
   }
 }

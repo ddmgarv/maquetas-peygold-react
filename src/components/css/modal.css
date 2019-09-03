@@ -1,0 +1,59 @@
+.modal-background {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  -webkit-backdrop-filter: blur(
+    8px
+  ); /* Use for Safari 9+, Edge 17+ and iOS Safari 9.2+ */
+  backdrop-filter: blur(4px); /* Supported in Chrome 76 */
+  width: 100vw;
+  height: 200vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 300;
+}
+.modal-container {
+  z-index: 500;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.modal-content {
+  background-color: #fff;
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 6.75rem;
+  border-radius: 18px;
+}
+.modal-content > div {
+  margin-top: 1rem;
+  text-align: center;
+}
+.modal-content > div:nth-child(3) {
+  margin-top: 2.5rem;
+  font-weight: 600;
+  color: #64b8ff;
+}
+.modal-content img {
+  width: 160px;
+  height: 150px;
+}
+@media screen and (max-width: 992px) {
+  .modal-content {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 650.98px) {
+  .modal-content {
+    width: 90%;
+  }
+}

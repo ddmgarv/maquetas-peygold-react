@@ -21,12 +21,15 @@ import facebook from "../assets/icon-facebook.svg";
 import instagram from "../assets/icon-instagram.svg";
 import isologotype from "../assets/isologotipo.svg";
 import isotype from "../assets/isotipo.svg";
+import iconCheck from "../assets/icon-aprobado-listado.svg";
+import iconDisabled from "../assets/icon-inactiva-listado.svg";
 import linkedin from "../assets/icon-linkedin.svg";
 import notifAct from "../assets/notification-active.svg";
 import ppIlust from "../assets/ilustracion-personas.svg";
 import pWallet from "../assets/punto-billetera.png";
 import pCharge from "../assets/punto-cobrar.png";
 import pPay from "../assets/punto-pagar.png";
+import points from "../assets/points.svg";
 import socialNetIlust from "../assets/ilustracion-redes-sociales-login.svg";
 import send from "../assets/enviar.svg";
 import twitter from "../assets/icon-twitter.svg";
@@ -81,5 +84,8 @@ export {
   pPay,
   notifAct,
   doubleChevronRight,
-  doubleChevronLeft
+  doubleChevronLeft,
+  iconCheck,
+  iconDisabled,
+  points
 };

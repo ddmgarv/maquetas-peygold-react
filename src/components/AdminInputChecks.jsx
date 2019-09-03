@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import { user1, changePhoto } from "../constants/img_urls";
 import { Table, Thead, Tbody, Tr, Th, Td } from "react-super-responsive-table";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEdit, faClock } from "@fortawesome/free-solid-svg-icons";
 import "react-super-responsive-table/dist/SuperResponsiveTableStyle.css";
 import "./css/rowDropdown.css";
 import "./css/panelAdmin.css";
@@ -300,7 +302,7 @@ const AdminInputChecks = ({
       </div>
 
       {/* Informacion del solicitante y solicitud */}
-      <div className="row">
+      <div className="row d-one">
         <div className="col-12 white-fluid-box margin-top-fix">
           <div className="requestant-request-info-container pb-3 mt-3">
             <div>
@@ -356,7 +358,7 @@ const AdminInputChecks = ({
       </div>
 
       {/* Listado de cheques */}
-      <div className="row ">
+      <div className="row dnone">
         <div className="col-lg-11 blue-box-wrapper">
           <h4> Listado de cheques</h4>
           <p className="m-0 ml-3">
@@ -378,6 +380,7 @@ const AdminInputChecks = ({
                   <Th>
                     <span>Estatus</span>
                   </Th>
+                  <Th></Th>
                 </Tr>
               </Thead>
               <Tbody>
@@ -389,7 +392,20 @@ const AdminInputChecks = ({
                     <span className="hour">19:54:21</span>
                   </Td>
                   <Td className="table-action-cell">Cliente 1</Td>
-                  <Td className="table-status-cell text-rejected">Rechazado</Td>
+                  <Td className="table-status-cell">
+                    <div className="status-float-txt">
+                      <FontAwesomeIcon icon={faClock} />
+                      <span>Some text to show</span>
+                    </div>
+                  </Td>
+                  <Td className="table-status-cell">
+                    <button>
+                      <div className="edit-btn">
+                        <FontAwesomeIcon icon={faEdit} />
+                        <span>Editar</span>
+                      </div>
+                    </button>
+                  </Td>
                 </Tr>
                 <Tr>
                   <Td className="table-request-id">Cheque 2</Td>
@@ -399,9 +415,21 @@ const AdminInputChecks = ({
                     <span className="hour">19:54:21</span>
                   </Td>
                   <Td className="table-action-cell">Cliente 1</Td>
-                  <Td className="table-status-cell text-approve">Aprobado</Td>
+                  <Td className="table-status-cell">
+                    <div className="status-float-txt">
+                      <FontAwesomeIcon icon={faClock} />
+                      <span>Some text to show</span>
+                    </div>
+                  </Td>
+                  <Td className="table-status-cell">
+                    <button>
+                      <div className="edit-btn">
+                        <FontAwesomeIcon icon={faEdit} />
+                        <span>Editar</span>
+                      </div>
+                    </button>
+                  </Td>
                 </Tr>
-
                 <Tr>
                   <Td className="table-request-id">Cheque 3</Td>
                   <Td className="table-date-cell">
@@ -411,9 +439,15 @@ const AdminInputChecks = ({
                   </Td>
                   <Td className="table-action-cell">Cliente 2</Td>
                   <Td className="table-status-cell">
+                    <div className="status-float-txt">
+                      <FontAwesomeIcon icon={faClock} />
+                      <span>Some text to show</span>
+                    </div>
+                  </Td>
+                  <Td className="table-status-cell">
                     <button>
                       <div className="edit-btn">
-                        <i className="fas fa-edit"></i>
+                        <FontAwesomeIcon icon={faEdit} />
                         <span>Editar</span>
                       </div>
                     </button>
@@ -427,7 +461,25 @@ const AdminInputChecks = ({
                     <span className="hour">19:54:21</span>
                   </Td>
                   <Td className="table-action-cell">Cliente 3</Td>
-                  <Td className="table-status-cell text-approve">Aprobado</Td>
+                  <Td className="table-status-cell">
+                    <div className="status-float-txt">
+                      <FontAwesomeIcon icon={faClock} />
+                      <span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quia aut corporis, consequatur voluptates quae ea sint
+                        ullam accusantium, animi harum assumenda reiciendis eius
+                        commodi, quod fugiat fugit suscipit maxime libero.
+                      </span>
+                    </div>
+                  </Td>
+                  <Td className="table-status-cell ">
+                    <button>
+                      <div className="edit-btn">
+                        <FontAwesomeIcon icon={faEdit} />
+                        <span>Editar</span>
+                      </div>
+                    </button>
+                  </Td>
                 </Tr>
                 <Tr>
                   <Td className="table-request-id">Cheque 5</Td>
@@ -438,9 +490,15 @@ const AdminInputChecks = ({
                   </Td>
                   <Td className="table-action-cell">Cliente 4</Td>
                   <Td className="table-status-cell">
+                    <div className="status-float-txt">
+                      <FontAwesomeIcon icon={faClock} />
+                      <span>Texto de estado de aplicacion</span>
+                    </div>
+                  </Td>
+                  <Td className="table-status-cell">
                     <button>
                       <div className="edit-btn">
-                        <i className="fas fa-edit"></i>
+                        <FontAwesomeIcon icon={faEdit} />
                         <span>Editar</span>
                       </div>
                     </button>

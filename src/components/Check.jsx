@@ -68,7 +68,7 @@ const CheckHelper = () => {
         </div>
       </div>
 
-      <div className="row">
+      <div className="row d-none">
         <div className="col-12 white-fluid-box check-checkbook-title-container">
           <h5 className="title-text">Solicitud N° 1047</h5>
           <div className="title-info-container">
@@ -405,7 +405,7 @@ const CheckHelper = () => {
         </div>
       </div>
 
-      <div className="row">
+      <div className="row d-none">
         <div className="col-12 mt-5">
           <div className="d-flex justify-content-center align-items-center">
             <img src={user1} alt="" />

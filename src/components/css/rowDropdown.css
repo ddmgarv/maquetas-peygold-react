@@ -35,7 +35,6 @@
   align-items: center;
   padding-bottom: 2.5rem;
   border-bottom: 1px solid #7994a85e;
-  cursor: pointer;
 }
 .rows-wrapper .title-container .name {
   font-weight: 600;
@@ -44,6 +43,7 @@
 .rows-wrapper .title-container .arrow {
   font-size: 20px;
   color: #64b8ff;
+  cursor: pointer;
 }
 .rows-wrapper .data-show .arrow {
   transform: rotate(180deg);
