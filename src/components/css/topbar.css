@@ -133,15 +133,11 @@ ul.list-group {
 #sidebar-container .nav-subtitles {
   height: 50px;
 }
-.sidebar-welcome-text {
-  text-transform: uppercase;
-}
 #sidebar-container a,
 #sidebar-container .nav-subtitles,
 .sidebar-welcome-text {
   color: rgba(255, 255, 255, 0.6);
 }
-
 #user-text {
   font-size: 15px;
   text-align: left;
@@ -227,6 +223,7 @@ ul.list-group {
   border-right: 3px solid #15eeb7;
   background-color: #35385c;
 }
+
 ul.sublist-wallet {
   list-style-image: url("../../assets/punto-billetera.png");
 }
@@ -376,7 +373,9 @@ ul.sublist-pay {
 .sidebar-collapse #sub-content-request {
   padding-top: 4.5rem;
 }
-.sidebar-collapse #sub-content-pay,
+.sidebar-collapse #sub-content-pay {
+  padding-top: 4.5rem;
+}
 .sidebar-collapse #sub-content-qr {
   padding-top: 7rem;
 }
@@ -407,6 +406,9 @@ ul.sublist-pay {
   padding-top: 0;
   padding-left: 0;
 }
+.sidebar-welcome-text {
+  text-transform: uppercase;
+}
 /* Final css para sidebar colapsada */
 
 /* CSS para footer */
@@ -429,6 +431,7 @@ ul.sublist-pay {
   font-size: 12px;
   color: #a5b5e4;
 }
+
 #footer .footer-content div:first-child {
   margin-left: 4%;
 }

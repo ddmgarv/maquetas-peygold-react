@@ -99,9 +99,12 @@
   display: flex;
   justify-content: center;
 }
-.check-btn-container button {
-  width: 100%;
-  margin: 1rem;
+.check-btn-container .btn-outline-opaque {
+  margin-right: 0.75rem;
+  width: 7.5rem;
+}
+.check-btn-container .btn-outline-red {
+  width: 15rem;
 }
 @media screen and (max-width: 650.98px) {
   .check-data-container h6 {

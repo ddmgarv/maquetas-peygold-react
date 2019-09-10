@@ -43,7 +43,7 @@ const InsuranceCarrierList = () => (
           </div>
         </div>
         <div class="border-separator"></div>
-        <div class="table-responsive table-cont table-h-custom">
+        <div class="table-cont table-h-custom">
           <Table className="table table-borderless table-hover table-recent-transfers">
             <Thead>
               <Tr>

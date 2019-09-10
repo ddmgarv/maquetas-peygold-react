@@ -13,14 +13,26 @@
   z-index: 1;
   overflow: hidden;
 }
+.bluebox-fix {
+  top: 0 !important;
+}
+.blue-box-wrapper .btn-dd {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  margin-left: 12px;
+}
+.blue-box-wrapper .btn-dd:hover {
+  color: #ffffff;
+}
 .blue-box-wallet-bg {
   background-image: url("../../assets/contenedor-billeteras.svg") !important;
 }
 .blue-box-wrapper h4 {
   color: #e4e6e8;
-  font-size: 17px;
+  font-size: 18px;
   margin-left: 0.7rem;
   font-weight: 700;
+  letter-spacing: 0.025em;
 }
 .blue-box-wrapper h4 > img {
   width: 22px;
@@ -36,7 +48,6 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
   padding-bottom: 1rem;
 }
-
 .blue-box-wrapper .input-search svg {
   color: #fff;
 }
@@ -46,6 +57,21 @@
 }
 .blue-box-wrapper .input-search input::placeholder {
   color: #a5b5e4;
+}
+
+.bluebox-dd-collapsed {
+  height: 100px;
+  transition: height 0.5s;
+}
+.bluebox-dd-extended {
+  height: 550px;
+  transition: height 0.5s;
+}
+.bluebox-dd-extended .btn-dd {
+  color: #ffffff;
+}
+.bluebox-dd-extended .btn-dd svg {
+  transform: rotate(180deg);
 }
 
 @media screen and (min-width: 1599px) {
@@ -67,5 +93,14 @@
   }
   .blue-box-wrapper > p {
     font-size: 14px;
+  }
+  .bluebox-dd-collapsed {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 576.98px) {
+  .blue-box-wrapper .btn-dd {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }

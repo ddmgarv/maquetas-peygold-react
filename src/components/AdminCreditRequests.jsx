@@ -40,7 +40,7 @@ const AdminCreditRequests = () => {
             </div>
           </div>
           <div class="border-separator"></div>
-          <div class="table-responsive table-cont table-h-custom">
+          <div class="table-cont table-h-custom">
             <Table className="table table-borderless table-hover table-recent-transfers">
               <Thead>
                 <Tr>
@@ -140,11 +140,11 @@ const AdminCreditRequests = () => {
                     </button>
                   </Td>
                 </Tr>
-                <Tr className="trCustom">
+                {/* <Tr className="trCustom">
                   <Td colSpan="5" valign="middle">
                     No se encontraron resultados
                   </Td>
-                </Tr>
+                </Tr> */}
               </Tbody>
             </Table>
           </div>

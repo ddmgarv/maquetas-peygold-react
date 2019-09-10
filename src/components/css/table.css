@@ -3,16 +3,12 @@
   justify-content: space-between;
   align-items: center;
 }
-.table-responsive {
-  margin: 0 !important;
-}
 .center-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .table-cont {
-  height: 280px;
   width: 100%;
   padding: 0 0.5rem !important;
 }
@@ -101,17 +97,16 @@
   min-width: 40px;
   word-break: unset !important;
 }
-.table-checkbox-cell {
+.table-checkbox-cell,
+.table-id-cell {
   max-width: 60px;
 }
-
 .table-isActive-cell {
   min-width: 60px;
 }
 .table-h-custom {
-  height: 325px !important;
+  height: 375px !important;
 }
-
 .table-cont .edit-btn {
   background-color: #2f3d64;
   padding: 0.5rem;
@@ -257,10 +252,8 @@
 .table-cont .status-container-inactive .text-inactive {
   position: relative;
   left: 8px;
-  font-size: 13px;
-}
-.table-cont .status-container-inactive .text-inactive {
   color: #a7a5ac !important;
+  font-size: 13px;
 }
 .table-cont .padLock-icon-container {
   width: 25px;

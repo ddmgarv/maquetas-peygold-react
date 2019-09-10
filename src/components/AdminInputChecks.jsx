@@ -331,7 +331,7 @@ const AdminInputChecks = ({
                   <p>
                     <span>
                       Rescate de cheque 60 días de vencimiento por P$G
-                    </span>{" "}
+                    </span>
                     <br />
                     <span>Forma de pago: </span> <span>Cheque</span> <br />
                     <span>Cantidad a solicitar: </span>
@@ -364,7 +364,7 @@ const AdminInputChecks = ({
           <p className="m-0 ml-3">
             Seleccione el N° del cheque que desea editar.
           </p>
-          <div class="table-responsive table-cont table-h-custom mt-4">
+          <div class="table-cont table-h-custom mt-4">
             <Table className="table table-borderless table-hover table-recent-transfers">
               <Thead>
                 <Tr>
